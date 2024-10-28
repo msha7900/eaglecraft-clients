@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EaglerClients</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Fondo negro */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* Color del texto blanco */
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #fff; /* Título blanco */
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #ccc; /* Texto del párrafo gris claro */
+            margin-bottom: 30px;
+        }
+
+        /* Contenedor de botones en dos columnas */
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* Estilo de cada columna */
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 45%;
+            gap: 15px;
+        }
+
+        /* Estilo de los enlaces */
+        a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            width: 100%;
+            text-align: center;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Títulos de las columnas */
+        .column-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>EaglerClients</h1>
+    <p>Select a client to use:</p>
+
+    <!-- Contenedor de botones en dos columnas -->
+    <div class="button-container">
+        <!-- Columna Izquierda -->
+        <div class="column">
+            <div class="column-title">Legit Clients</div>
+            <a href="UwU-client-b2-offline.html">EaglerClients Launcher</a>
+            <a href="Resent-Signed.html">Safe Client</a>
+        </div>
+
+        <!-- Columna Derecha -->
+        <div class="column">
+            <div class="column-title">Hacked Clients</div>
+            <a href="PremiumDragonv2.html">EaglerClients Hacked Launcher</a>
+            <a href="PiClient-v1.html">Pi Client</a>
+            <a href="Shadow-Client.html">Shadow Client</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
